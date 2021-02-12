@@ -1,0 +1,46 @@
+@import url('https://fonts.googleapis.com/css2?family=Kanit:wght@200;400;600&display=swap');
+html {
+    font-family: 'Kanit', sans-serif;
+}
+
+
+
+body {
+    background: url(https://picsum.photos/id/1037/1700);
+
+}
+.card {
+    display: inline-block;
+    box-shadow: 4px 8px 8px silver;
+    width: 300px;
+    border-radius: 5px;
+    margin: 5px;
+    /* background-color: rgb(199, 152, 243); */
+}
+/* เฉพาะ img ที่เป็นลูกของ class Cardเท่าน้ัน */
+.card >img {
+    border-radius: 5px 5px 0 0; 
+    /* บนซ้าย บนขวา ล่างขวา ล่างซ้าย */
+    width: 100%;
+    display: block;
+    
+}
+
+.container {
+    padding: 2px 16px;
+    text-align: center;
+    /* เพราะไม่กำหนด width ใช้ textalign Center ได้เลย */
+    color: rgb(7, 0, 0);
+    background-color:#00ffba88;
+    border-radius: 0 0 5px 5px;
+    color: #cd5c5c;
+  
+ }
+ .container h4{
+     font-weight: 200;
+     font-size: 40px;
+ }
+
+ .container p {
+     font-weight: 600;
+ }
