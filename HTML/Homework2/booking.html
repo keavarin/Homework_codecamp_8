@@ -1,0 +1,136 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Booking form</title>
+    <style>
+      .container {
+        /* display: flex; */
+        direction: row;
+      }
+      .fly-to-form {
+        display: inline-flex;
+      }
+      .fly {
+        font-weight: bold;
+        text-align: left;
+        margin-right: 50px;
+        margin-bottom: 20px;
+        width: 350px;
+      }
+      .input {
+        width: 100%;
+      }
+      .adult-form {
+        font-weight: bold;
+        text-align: left;
+        display: flex;
+        width: 55%;
+      }
+      .adult-input {
+        display: inline-block;
+        margin-top: 0px;
+        margin-bottom: 0px;
+        width: 100%;
+      }
+      .button {
+        background-color: tomato;
+        width: 100px;
+        border-radius: 5px;
+        padding: 10px;
+        margin: 15px 5px;
+        color: aliceblue;
+        border: none;
+      }
+      .buttom-zero {
+        margin-bottom: 0px;
+      }
+    </style>
+  </head>
+  <body>
+    <form action="">
+      <div class="container">
+        <div class="fly-to-form">
+          <div class="fly">
+            <p class="buttom-zero">Flying form</p>
+
+            <select name="" id="" class="input">
+              <option value="1">Phuket</option>
+              <option value="2">2</option>
+              <option value="3">3</option>
+            </select>
+          </div>
+
+          <div class="fly">
+            <p class="buttom-zero">To</p>
+            <select name="" id="" class="input">
+              <option value="1">Bangkok</option>
+              <option value="2">2</option>
+              <option value="3">3</option>
+            </select>
+          </div>
+        </div>
+
+        <div>
+          <div class="fly-to-form">
+            <div class="fly">
+              <p class="buttom-zero">Departing</p>
+              <input type="date" class="fly" />
+            </div>
+
+            <div class="fly">
+              <p class="buttom-zero">Returning</p>
+              <input type="date" class="fly" />
+            </div>
+          </div>
+        </div>
+
+        <!-- <div> -->
+        <div class="adult-form">
+          <div class="adult-input">
+            <p class="buttom-zero">Adult</p>
+
+            <select name="" id="">
+              <option value="1">1</option>
+              <option value="2">2</option>
+              <option value="3">3</option>
+            </select>
+          </div>
+          <div class="adult-input">
+            <p class="buttom-zero">Child</p>
+
+            <select name="" id="">
+              <option value="1">1</option>
+              <option value="2">2</option>
+              <option value="3">3</option>
+            </select>
+          </div>
+
+          <div class="adult-input">
+            <p class="buttom-zero">Infant</p>
+
+            <select name="" id="">
+              <option value="1">1</option>
+              <option value="2">2</option>
+              <option value="3">3</option>
+            </select>
+          </div>
+
+          <div class="adult-input">
+            <p class="buttom-zero" style="color: tomato">Currency</p>
+
+            <select name="" id="">
+              <option value="1">THB</option>
+              <option value="2">USD</option>
+            </select>
+          </div>
+        </div>
+        <div>
+          <button class="button">Submit</button>
+        </div>
+      </div>
+    </form>
+  </body>
+</html>
